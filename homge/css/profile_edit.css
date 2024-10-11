@@ -1,0 +1,79 @@
+/* Profile Edit Page Styles */
+.profile-edit-container {
+    background-color: #ffffff; /* White background for the form container */
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.profile-edit-container h1 {
+    color: #2e8b57; /* Green color for the header */
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.input-box {
+    margin-bottom: 1.5em;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-box input[type="text"],
+.input-box textarea,
+.input-box input[type="file"] {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.input-box textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+.input-box img.edit-avatar-preview {
+    margin-top: 1em;
+    max-width: 150px; /* Set a max width for the preview */
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+button[type="submit"] {
+    background-color: #2e8b57; /* Green background color for the button */
+    color: white;
+    border: none;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+    background-color: #1c6b40; /* Darker green on hover */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+button[type="submit"]:active {
+    background-color: #155d39; /* Even darker green when pressed */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+button[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.2);
+}
